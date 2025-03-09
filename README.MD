@@ -61,3 +61,10 @@ cd Technical-assessment
 ```bash
 python3 main.py
 ```
+
+
+## **Future Improvements**
+
+🚀 Implement tests.
+
+🚀 Add a user-friendly interface.
