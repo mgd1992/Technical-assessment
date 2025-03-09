@@ -52,3 +52,12 @@ Clone this repository and navigate to the project folder:
 
 ```bash
 git clone https://github.com/mgd1992/Technical-assessment.git
+```
+
+```bash
+cd Technical-assessment
+```
+
+```bash
+python3 main.py
+```
