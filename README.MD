@@ -1,6 +1,6 @@
 **AMENITIZ**
 
-*Technical assessment: Growth Engineer*
+*Technical assessment*
 
 # **Cash Register App** 🛒
 
