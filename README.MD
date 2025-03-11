@@ -57,14 +57,18 @@ git clone https://github.com/mgd1992/Technical-assessment.git
 ```bash
 cd Technical-assessment
 ```
+To run the backend:
 
 ```bash
 python3 main.py
 ```
+To run the frontend navigate up to cart-test-app:
 
+```bash
+cd front/cart-test-app
+npm run dev
+```
 
 ## **Future Improvements**
 
 🚀 Implement tests.
-
-🚀 Add a user-friendly interface.

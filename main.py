@@ -3,6 +3,9 @@ from src.cart import Cart
 import time
 
 def menu():
+	
+	print('----- WELCOME TO MY APP -------')
+
 	print("\nSelecciona una opción:")
 	print("1. Add Green Tea")
 	print("2. Add Strawberries")
@@ -47,10 +50,15 @@ def main():
 					print(f"{data['quantity']} X {name} - {data['price']}€ each")
 				print('************************************************')
 				print(f'Total price: {cart.PrecioTotal()} €')
+				print('------------------------------------------------')
+				print('------------------------------------------------')
+				print('------------------------------------------------')
+				time.sleep(2)
 			else:
 				print('The cart is empty, please add any product')
 		elif choice == "5":
 			print('Thank you! Have a nice day')
+			print('------------------------------------------------')
 			break
 		else:
 				print('Wrong choice, try again!')
