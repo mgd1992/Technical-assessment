@@ -30,7 +30,7 @@ This project is a simple **cash register** system that allows adding products to
 - **Volume Discount (Coffee - CF1)**: If you buy **3 or more**, the price of each unit drops to **2/3 of the original price**.
 
 ## **Defining the Solution**
-We built a `CashRegister` class that can:
+We built a `Cart` class that can:
 
 ✔ Add products to the cart.
 
@@ -38,7 +38,7 @@ We built a `CashRegister` class that can:
 
 Basic Structure:
 
-- A CashRegister class with methods to add products and calculate the total.
+- A Cart class with methods to add products and calculate the total.
 - A dictionary of products with their prices for easy reference.
 - Rules for each special product (Green Tea, Strawberries, Coffee).
 
@@ -65,7 +65,7 @@ python3 main.py
 To run the frontend navigate up to cart-test-app:
 
 ```bash
-cd front/cart-test-app
+cd Technical-assessment/front/cart-test-app
 npm run dev
 ```
 
